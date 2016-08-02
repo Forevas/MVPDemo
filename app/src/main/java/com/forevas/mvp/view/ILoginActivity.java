@@ -12,5 +12,6 @@ public interface ILoginActivity {
     void setPasswordError(String msg);
     void showLoading(String msg);
     void hideLoading();
+    void showToast(String msg);
     void loginSuccess();
 }
